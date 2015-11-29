@@ -1,4 +1,5 @@
 # HwaBuHe
 Human Computer Interaction X SKCC Project 
 
-2015 2nd Semester @ Korea University 
+2015 2nd Semester @ Korea University  
+  w/ Lim Ju Yeon
