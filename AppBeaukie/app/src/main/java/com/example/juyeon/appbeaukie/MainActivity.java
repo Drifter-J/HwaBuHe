@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register1);
+        setContentView(R.layout.activity_main);
 
         buttonInmypouch = (Button) findViewById(R.id.buttonInmypouch);
         buttonTrashcan = (Button) findViewById(R.id.buttonTrashcan);
