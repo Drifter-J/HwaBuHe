@@ -94,7 +94,4 @@
         android:id="@+id/buttonRegister"
         android:background="@drawable/reg2_reg_button"
         />
-
-
-
 </LinearLayout>
