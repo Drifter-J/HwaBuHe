@@ -4,94 +4,132 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/reg2_bg">
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/reg_nevbar"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonReturn"
-        android:background="@drawable/reg_prev_button"
-        />
-
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-    <Spinner
-        android:id="@+id/spinnerGender"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"/>
-    <EditText
-        android:id="@+id/editAge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"/>
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@drawable/reg_nevbar"/>
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="20dp"
+                android:id="@+id/buttonReturn"
+                android:background="@drawable/reg_prev_button"
+                android:layout_marginTop="28dp"
+                android:layout_marginLeft="18dp"
+                />
+        </RelativeLayout>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:paddingTop="52dp">
+        <View android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <Spinner
+            android:id="@+id/spinnerGender"
+            android:layout_width="50dp"
+            android:paddingLeft="15dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"/>
+
+        <View android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5" />
+        <EditText
+            android:id="@+id/editAge"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="25dp"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        android:paddingTop="25dp"
+        android:paddingRight="28dp">
+        <View android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
             android:id="@+id/buttonDry"
             android:background="@drawable/reg2_dry_button"
             />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
             android:id="@+id/buttonMed"
             android:background="@drawable/reg2_mid_button"
             />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
             android:id="@+id/buttonOil"
             android:background="@drawable/reg2_oil_button"
             />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
             android:id="@+id/buttonMix"
             android:background="@drawable/reg2_mix_button"
             />
     </LinearLayout>
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_width="fill_parent"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:paddingRight="28dp">
+        <View android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
             android:id="@+id/buttonPimple"
             android:background="@drawable/reg2_pimple_button"
             />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
             android:id="@+id/buttonAtopy"
             android:background="@drawable/reg2_atopy_button"
             />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
             android:id="@+id/buttonSensi"
             android:background="@drawable/reg2_sensi_button"
             />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
             android:id="@+id/buttonNa"
             android:background="@drawable/reg2_na_button"
             />
     </LinearLayout>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonRegister"
-        android:background="@drawable/reg2_reg_button"
-        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:paddingTop="40dp"
+        android:paddingLeft="25dp">
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/buttonRegister"
+            android:background="@drawable/reg2_reg_button"
+            android:layout_marginTop="30dp"
+            />
+    </LinearLayout>
 </LinearLayout>

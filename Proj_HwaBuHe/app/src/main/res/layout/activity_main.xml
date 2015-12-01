@@ -1,24 +1,34 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg">
+
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"></LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="2dp">
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:id="@+id/buttonInmypouch"
             android:text="@string/strInmypouch"
             />
-
+        <View android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:id="@+id/buttonTrashcan"
             android:text="@string/strTrashcan"
-            />
+            android:layout_gravity="fill_horizontal"/>
     </LinearLayout>
+
 </LinearLayout>
