@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/log_bg"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strUsername"
+        android:background="@android:color/transparent"/>
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strPassword"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRegister"
+        android:background="@drawable/log_reg_button"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:id="@+id/buttonLogin"
+        android:background="@drawable/log_start_button"
+        android:layout_weight="0.13" />
+
+</LinearLayout>
