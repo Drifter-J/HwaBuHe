@@ -20,6 +20,7 @@ import android.widget.Spinner;
 public class MainActivity extends Activity {
     Button buttonInmypouch, buttonTrashcan;
     ArrayAdapter<String> adapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -86,7 +87,7 @@ public class MainActivity extends Activity {
                     itemImage.setImageResource(imageID[pos]);
 
                     //Spinner setting
-                    Spinner spinnerType = (Spinner) findViewById(R.id.spinnerType);
+                    Spinner spinnerType = (Spinner) dialogView.findViewById(R.id.spinnerType);
                     spinnerType.setAdapter(adapter);
 
                     dlg.setView(dialogView);
