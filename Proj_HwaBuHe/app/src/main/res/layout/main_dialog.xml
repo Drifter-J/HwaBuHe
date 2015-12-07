@@ -6,7 +6,47 @@
     android:gravity="center">
 
     <ImageView
-        android:id="@+id/itemImage"/>
+        android:id="@+id/itemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:text="제품명"/>
+            <EditText
+                android:id="@+id/edittext1" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="제품종류"/>
+            <Spinner
+                android:id="@+id/spinnerType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="양"/>
+            <EditText
+                android:id="@+id/edittext2" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="등록기간"/>
+            <DatePicker
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="별점"/>
+            <RatingBar
+                android:id="@+id/ratingBar1" />
+        </TableRow>
+    </TableLayout>
 
 
 </LinearLayout>

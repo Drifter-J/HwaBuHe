@@ -7,17 +7,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.Spinner;
 
 /**
  * Created by juyeon on 2015-11-21.
  */
 public class MainActivity extends Activity {
     Button buttonInmypouch, buttonTrashcan;
-
+    ArrayAdapter<String> adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,11 +44,14 @@ public class MainActivity extends Activity {
         });
 
         // item grid setting
-
         final GridView gv = (GridView) findViewById(R.id.itemGrid);
         MyGridAdapter gAdapter = new MyGridAdapter(this);
         gv.setAdapter(gAdapter);
 
+        // 제품종류 spinner 선택
+        String[] type = {"스킨케어", "페이스 메이크업", "컬러 메이크업", "클렌징", "팩/마스크", "선케어", "바디/헤어", "미용소품","네일", "기타"};
+
+        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, type);
     }
 
     public class MyGridAdapter extends BaseAdapter {
@@ -79,6 +84,11 @@ public class MainActivity extends Activity {
                     AlertDialog.Builder dlg = new AlertDialog.Builder(MainActivity.this);
                     ImageView itemImage = (ImageView) dialogView.findViewById(R.id.itemImage);
                     itemImage.setImageResource(imageID[pos]);
+
+                    //Spinner setting
+                    Spinner spinnerType = (Spinner) findViewById(R.id.spinnerType);
+                    spinnerType.setAdapter(adapter);
+
                     dlg.setView(dialogView);
                     dlg.setNegativeButton("닫기", null);
                     dlg.show();

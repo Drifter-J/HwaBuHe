@@ -25,7 +25,7 @@ public class Register2Activity extends Activity {
         Spinner spinnerGender = (Spinner) findViewById(R.id.spinnerGender);
 
         ArrayAdapter<String> adapter;
-        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, gender);
+        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, gender);
         spinnerGender.setAdapter(adapter);
 
 
