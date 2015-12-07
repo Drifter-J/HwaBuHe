@@ -1,11 +1,10 @@
 package com.example.hyemi.proj_hwabuhe;
 
-        import android.app.Activity;
-        import android.content.Intent;
-        import android.os.Bundle;
-        import android.view.View;
-        import android.widget.Button;
-        import android.widget.LinearLayout;
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 /**
  * Created by juyeon on 2015-11-21.
