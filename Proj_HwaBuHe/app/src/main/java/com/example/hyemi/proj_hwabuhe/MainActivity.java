@@ -69,7 +69,9 @@ public class MainActivity extends Activity {
         public long getItemId(int arg0) {
             return 0;
         }
-        Integer[] imageID = {R.drawable.item01, R.drawable.item02, R.drawable.item03, R.drawable.item04, R.drawable.item05,R.drawable.item01, R.drawable.item02, R.drawable.item03, R.drawable.item04, R.drawable.item05, R.drawable.item01, R.drawable.item02, R.drawable.item03, R.drawable.item04, R.drawable.item05};
+        Integer[] imageID = {R.drawable.item01, R.drawable.item02, R.drawable.item03, R.drawable.item04, R.drawable.item05,R.drawable.item06, R.drawable.item07, R.drawable.item08, R.drawable.item09, R.drawable.item10
+        ,R.drawable.item01, R.drawable.item02, R.drawable.item03, R.drawable.item04, R.drawable.item05,R.drawable.item06, R.drawable.item07, R.drawable.item08, R.drawable.item09, R.drawable.item10
+        ,R.drawable.item01, R.drawable.item02, R.drawable.item03, R.drawable.item04, R.drawable.item05,R.drawable.item06, R.drawable.item07, R.drawable.item08, R.drawable.item09, R.drawable.item10};
         public View getView(int position, View convertView, ViewGroup parent) {
             ImageView imageView = new ImageView(context);
             imageView.setLayoutParams(new GridView.LayoutParams(100, 150));
