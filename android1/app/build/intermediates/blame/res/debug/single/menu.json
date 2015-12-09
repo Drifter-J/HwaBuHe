@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\capture.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\menu\\capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\encode.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\menu\\encode.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\history.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\menu\\history.xml"
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\share.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\share.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_picker_list_item.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\app_picker_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rect.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\rect.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\capture.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\encode.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\encode.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bookmark_picker_list_item.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\bookmark_picker_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register2.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\activity_register2.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_book_contents_header.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\search_book_contents_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_dialog.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\main_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_book_contents_list_item.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\search_book_contents_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\history_list_item.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\history_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\help.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_trashmain.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\activity_trashmain.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_book_contents.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\search_book_contents.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\asd.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\asd.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register1.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\activity_register1.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inmypouch.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\activity_inmypouch.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

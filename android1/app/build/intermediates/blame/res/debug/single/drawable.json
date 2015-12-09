@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item04.jpg",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\item04.jpg"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\log_start_button.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\log_start_button.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item01.jpg",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\item01.jpg"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item07.jpg",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\item07.jpg"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\log__bg.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\log__bg.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg_prev_button.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg_prev_button.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg_cont_button.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg_cont_button.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg2_na_button.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg2_na_button.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item09.jpg",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\item09.jpg"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\log_reg_button.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\log_reg_button.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg_bg.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item08.jpg",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\item08.jpg"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg2_bg.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg2_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg2_pimple_button.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg2_pimple_button.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg2_sensi_button.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg2_sensi_button.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item05.jpg",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\item05.jpg"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\launcher_icon.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\launcher_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg2_dry_button.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg2_dry_button.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg2_mid_button.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg2_mid_button.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg2_atopy_button.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg2_atopy_button.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item02.jpg",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\item02.jpg"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg_nevbar.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg_nevbar.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item10.jpg",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\item10.jpg"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg_google.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg_google.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item06.jpg",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\item06.jpg"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\log_bg.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\log_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg_main.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg_main.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share_via_barcode.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\share_via_barcode.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg_naver.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg_naver.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_bg.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\main_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg2_mix_button.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg2_mix_button.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button.xml",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg2_reg_button.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg2_reg_button.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item03.jpg",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\item03.jpg"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg_next_button.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg_next_button.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg2_main.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg2_main.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg_facebook.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg_facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reg2_oil_button.png",
+        "source": "C:\\Users\\juyeon\\Downloads\\zxing-master\\android1\\app\\src\\main\\res\\drawable\\reg2_oil_button.png"
+    }
+]

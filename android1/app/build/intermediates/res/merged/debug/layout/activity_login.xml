@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/log_bg"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strUsername"
+        android:textColor="#FFFFFF"
+        android:background="@android:color/transparent"
+        android:layout_alignBaseline="@+id/editPassword"
+        android:layout_alignBottom="@+id/editPassword"
+        android:layout_alignStart="@+id/editPassword" />
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strPassword"
+        android:textColor="#FFFFFF"
+        android:background="@android:color/transparent"
+        android:layout_above="@+id/buttonRegister"
+        android:layout_alignEnd="@+id/buttonRegister"/>
+    <Button
+        android:adjustViewBounds="true"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:id="@+id/buttonLogin"
+        android:background="@drawable/log_start_button"
+        android:layout_weight="0.03"
+        android:layout_above="@+id/buttonRegister"
+        />
+
+    <Button
+        android:adjustViewBounds="true"
+
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:id="@+id/buttonRegister"
+        android:background="@drawable/log_reg_button"/>
+
+</LinearLayout>
