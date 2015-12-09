@@ -8,6 +8,7 @@
         android:layout_width="fill_parent"
         android:layout_height="140dp">
         <include layout="@layout/rect"
+            android:id="@+id/buttonItemContainer1"
             android:layout_marginLeft="48dp"
             android:layout_marginTop="60dp"
             android:layout_width="60dp"
@@ -35,7 +36,7 @@
         android:id="@+id/imageView"
         android:layout_gravity="right"
         android:layout_weight="1" />
- <!-- add an item buttons from here -->
+    <!-- add an item buttons from here -->
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="120dp">
@@ -109,20 +110,20 @@
             android:layout_height="70dp" />
     </LinearLayout>
     <!-- to here -->
-<!-- juyeon's code
-<LinearLayout
-android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1">
-        <GridView
-            android:id="@+id/itemGrid"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:numColumns="4">
-        </GridView>
-    </LinearLayout>
-    -->
+    <!-- juyeon's code
+    <LinearLayout
+    android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            <GridView
+                android:id="@+id/itemGrid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:numColumns="4">
+            </GridView>
+        </LinearLayout>
+        -->
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

@@ -30,6 +30,9 @@ public class MainActivity extends Activity {
         buttonInmypouch = (Button) findViewById(R.id.buttonInmypouch);
         buttonTrashcan = (Button) findViewById(R.id.buttonTrashcan);
 
+        View buttonItemContainer1 = findViewById(R.id.buttonItemContainer1);
+        Button buttonItem1 = (Button) buttonItemContainer1.findViewById(R.id.buttonItem);
+
         buttonInmypouch.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), InMyPouchActivity.class);
@@ -44,7 +47,15 @@ public class MainActivity extends Activity {
             }
         });
 
+        buttonItem1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), CaptureActivity.class);
+                startActivity(intent);
+            }
+        });
+
         /*
+        //juyeon's code
         // item grid setting
         final GridView gv = (GridView) findViewById(R.id.itemGrid);
         MyGridAdapter gAdapter = new MyGridAdapter(this);
@@ -71,8 +82,8 @@ public class MainActivity extends Activity {
             return 0;
         }
         Integer[] imageID = {R.drawable.item01, R.drawable.item02, R.drawable.item03, R.drawable.item04, R.drawable.item05,R.drawable.item06, R.drawable.item07, R.drawable.item08, R.drawable.item09, R.drawable.item10
-        ,R.drawable.item01, R.drawable.item02, R.drawable.item03, R.drawable.item04, R.drawable.item05,R.drawable.item06, R.drawable.item07, R.drawable.item08, R.drawable.item09, R.drawable.item10
-        ,R.drawable.item01, R.drawable.item02, R.drawable.item03, R.drawable.item04, R.drawable.item05,R.drawable.item06, R.drawable.item07, R.drawable.item08, R.drawable.item09, R.drawable.item10};
+                ,R.drawable.item01, R.drawable.item02, R.drawable.item03, R.drawable.item04, R.drawable.item05,R.drawable.item06, R.drawable.item07, R.drawable.item08, R.drawable.item09, R.drawable.item10
+                ,R.drawable.item01, R.drawable.item02, R.drawable.item03, R.drawable.item04, R.drawable.item05,R.drawable.item06, R.drawable.item07, R.drawable.item08, R.drawable.item09, R.drawable.item10};
         public View getView(int position, View convertView, ViewGroup parent) {
             ImageView imageView = new ImageView(context);
             imageView.setLayoutParams(new GridView.LayoutParams(100, 150));
