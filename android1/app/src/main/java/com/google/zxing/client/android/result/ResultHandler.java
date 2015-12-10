@@ -443,9 +443,14 @@ public abstract class ResultHandler {
     }
 
     final void webSearch(String query) {
+         /*
+    // temporarily changed code
         Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
         intent.putExtra("query", query);
         launchIntent(intent);
+        */
+        Intent intent = new Intent(activity.getApplicationContext(), MainActivity.class);
+        activity.startActivity(intent);
     }
 
     /**
