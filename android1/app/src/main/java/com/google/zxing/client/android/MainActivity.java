@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -22,7 +23,6 @@ import android.widget.Spinner;
 public class MainActivity extends Activity {
     Button buttonInmypouch, buttonTrashcan;
     ArrayAdapter<String> adapter;
-    public Boolean clickFlag = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,10 +41,6 @@ public class MainActivity extends Activity {
         buttonItem1.setBackgroundResource(R.drawable.item01);
         buttonItem1.setText("");
 
-        if(clickFlag){
-            buttonItem2.setBackgroundResource(R.drawable.item02);
-            buttonItem2.setText("");
-        }
 
         buttonInmypouch.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -86,9 +82,12 @@ public class MainActivity extends Activity {
 
         buttonItem2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                clickFlag = true;
+
                 Intent intent = new Intent(getApplicationContext(), CaptureActivity.class);
                 startActivity(intent);
+                SystemClock.sleep(50);
+                buttonItem2.setBackgroundResource(R.drawable.item02);
+                buttonItem2.setText("");
             }
         });
 
