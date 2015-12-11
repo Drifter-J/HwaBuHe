@@ -10,7 +10,7 @@ import android.widget.Button;
  * Created by juyeon on 2015-11-21.
  */
 public class Register1Activity extends Activity {
-    Button buttonContinue;
+    Button buttonContinue, buttonReturn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,14 @@ public class Register1Activity extends Activity {
         buttonContinue = (Button) findViewById(R.id.buttonContinue);
         buttonContinue.setLayoutParams(new LinearLayout.LayoutParams(dp, LinearLayout.LayoutParams.WRAP_CONTENT));
         */
+
+        buttonReturn = (Button) findViewById(R.id.buttonReturn);
+        buttonReturn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(intent);
+            }
+        });
 
         buttonContinue = (Button) findViewById(R.id.buttonContinue);
         buttonContinue.setOnClickListener(new View.OnClickListener() {

@@ -12,7 +12,7 @@ import android.widget.Spinner;
  * Created by juyeon on 2015-11-21.
  */
 public class Register2Activity extends Activity {
-    Button buttonRegister;
+    Button buttonRegister, buttonReturn;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -28,6 +28,13 @@ public class Register2Activity extends Activity {
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, gender);
         spinnerGender.setAdapter(adapter);
 
+        buttonReturn = (Button) findViewById(R.id.buttonReturn);
+        buttonReturn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Register1Activity.class);
+                startActivity(intent);
+            }
+        });
 
         // Register 버튼을 클릭시
         buttonRegister = (Button) findViewById(R.id.buttonRegister);
