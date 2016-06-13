@@ -290,7 +290,7 @@ public final class RSSExpandedReader extends AbstractRSSReader {
     // it will prevent us from detecting the barcode.
     // Try to merge partial rows
 
-    // Check whether the row is part of an allready detected row
+    // Check whether the row is part of an already detected row
     if (isPartialRow(this.pairs, this.rows)) {
       return;
     }

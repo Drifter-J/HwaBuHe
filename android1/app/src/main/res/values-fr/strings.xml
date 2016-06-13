@@ -61,7 +61,7 @@
   <string name="menu_settings">Paramètres</string>
   <string name="menu_share">Partager</string>
   <string name="msg_bulk_mode_scanned">Balayage en rafale\u00A0: code-barres balayés et enregistrés</string>
-  <string name="msg_camera_framework_bug">Désolé, la caméra Android a rencontré un problème. Un redémarrage de l\'appareil est peut-être nécessaire.</string>
+  <string name="msg_camera_framework_bug">Désolé, la caméra Android a rencontré un problème. Un redémarriage de l\'appareil est peut-être nécessaire.</string>
   <string name="msg_default_format">Format</string>
   <string name="msg_default_meta">Métadonnées</string>
   <string name="msg_default_mms_subject">Salut</string>
