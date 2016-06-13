@@ -238,7 +238,7 @@ public class FinderPatternFinder {
    * @param maxCount maximum reasonable number of modules that should be
    *  observed in any reading state, based on the results of the horizontal scan
    * @param originalStateCountTotal The original state count total.
-   * @return true if proportions are withing expected limits
+   * @return true if proportions are within expected limits
    */
   private boolean crossCheckDiagonal(int startI, int centerJ, int maxCount, int originalStateCountTotal) {
     int[] stateCount = getCrossCheckStateCount();
